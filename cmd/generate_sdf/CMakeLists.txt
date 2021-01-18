@@ -35,6 +35,8 @@ add_executable(GenerateSDF
 	resource_path.hpp
 )
 
+install(TARGETS GenerateSDF RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
+
 add_dependencies(GenerateSDF
 	Discregrid
 )

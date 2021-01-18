@@ -41,4 +41,6 @@ target_link_libraries(GenerateDensityMap
 	Discregrid
 )
 
+install(TARGETS GenerateDensityMap RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
+
 set_target_properties(GenerateDensityMap PROPERTIES FOLDER Cmd)

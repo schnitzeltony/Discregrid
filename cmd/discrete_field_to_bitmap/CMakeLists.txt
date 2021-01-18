@@ -45,4 +45,6 @@ target_link_libraries(DiscreteFieldToBitmap
 	Discregrid
 )
 
+install(TARGETS DiscreteFieldToBitmap RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
+
 set_target_properties(DiscreteFieldToBitmap PROPERTIES FOLDER Cmd)
